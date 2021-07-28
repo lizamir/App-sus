@@ -1,0 +1,16 @@
+    .keep-preview {
+        text-align: center;
+        font-size: 1.5rem;
+        margin: 24px;
+        background-color: #f2d5f3;
+        padding: 17px 27px 44px;
+        position: relative;
+        height: 100%;
+        width: 283px;
+        border-radius: 15px;
+        opacity: 0.85;
+    }
+    
+    .keep-preview:hover {
+        opacity: 1;
+    }

@@ -1,0 +1,59 @@
+@import "apps/email/pages/email-app.cmp.css";
+@import "apps/email/cmps/email-list.cmp.css";
+@import "apps/email/cmps/email-preview.cmp.css";
+@import "apps/email//pages/email-details.cmp.css";
+@import "apps/email/pages/email-compose.cmp.css";
+
+/* @import "/css/apps/email/cmps/email-preview.cmp.css";  */
+
+@import 'basic/fonts.css';
+@import 'basic/base.css';
+@import 'basic/helpers.css';
+@import 'pages/home-page.css';
+
+/* notes */
+@import 'cmps/app-header.css';
+@import 'cmps//app-footer.css';
+@import 'apps/keep/main.css';
+
+@import 'apps/book//pages/search-book.cmp.css';
+@import 'apps/book//pages//book-app.cmp.css';
+@import 'apps/book/pages/book-details.cmo.css';
+* {
+    box-sizing: border-box;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    font-family: LatoRegular;
+}
+
+html {
+    line-height: 1.5;
+    font-size: 1.5rem;
+    background-color: rgb(255, 255, 255)
+}
+
+body {
+    margin: 0;
+}
+
+
+/* header */
+
+.main-app {
+    margin: 0;
+    height: 83vh;
+}
+
+
+@media screen and (max-width: 960px) {
+    html{
+        font-size: unset;
+    }
+}

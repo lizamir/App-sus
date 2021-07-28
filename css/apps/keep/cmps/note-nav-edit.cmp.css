@@ -1,0 +1,41 @@
+.note-nav-edit {
+    position: absolute;
+    right: 84px;
+    bottom: 2px;
+}
+
+.note-nav-edit i {
+    opacity: 0.4;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.note-nav-edit i:hover {
+    opacity: 1;
+}
+
+button.bgc {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+}
+
+button.bgc.bgc-1 {
+    background-color: #28527a;
+}
+
+button.bgc.bgc-2 {
+    background-color: #8ac4d0;
+}
+
+button.bgc.bgc-3 {
+    background-color: #d0e8f2;
+}
+
+button.bgc.bgc-4 {
+    background-color: #f4d160;
+}
+
+button.bgc.bgc-5 {
+    background-color: #fbeeac;
+}

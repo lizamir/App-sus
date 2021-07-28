@@ -1,0 +1,43 @@
+
+
+
+.main-footer {
+    font-size: 14px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    opacity: 0.8;
+    color: rgb(80, 80, 80);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.git-link {
+    display: flex;
+    justify-content: space-around;
+    color:rgb(82, 82, 82);
+    text-decoration: none;
+    padding: 3px;
+}
+
+.git-img {
+    height: 30px;
+    width: 30px;
+    color: rgb(59, 59, 59);
+}
+
+
+@media screen and (max-width: 960px) {
+    .main-footer{
+        font-size: 16px;
+        padding: 2px;
+        
+    }
+    
+  }
+  
+ 

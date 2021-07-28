@@ -1,0 +1,94 @@
+
+
+.to-search-btn{
+    cursor: pointer;
+    font-family: LatoRegular;
+}
+.search-book {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.add-book-btn{
+    text-decoration: none;
+    color: rgb(46, 51, 15);
+    
+}
+
+/*ul */
+.suggest-list  {
+    counter-reset: index;
+    padding: 0;
+    max-width: 300px;
+
+}
+
+/* li */
+.book-suggest {
+
+    font-family: serif;
+    font-size: 1.3rem;
+    counter-increment: index;
+    display: flex;
+    align-items: center;
+    padding: 12px 0;
+    box-sizing: border-box;
+}
+
+
+.book-suggest::before {
+    content: counters(index, ".", decimal-leading-zero);
+    font-size: 1.5rem;
+    text-align: right;
+    font-weight: bold;
+    min-width: 50px;
+    padding-right: 12px;
+    font-variant-numeric: tabular-nums;
+    align-self: flex-start;
+    background-image: linear-gradient(to bottom, aquamarine, orangered);
+    background-attachment: fixed;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.book-suggest+.book-suggest {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.book-suggest:hover {
+    cursor: pointer;
+    background-color: rgba(160, 157, 157, 0.192);
+}
+
+.search-book .search-input {
+    background-color: #e3edf7;
+    padding: 16px 32px;
+    border: none;
+    display: block;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 600;
+    color: #35373a;
+    -webkit-appearance: none;
+    transition: all 240ms ease-out;
+
+}
+
+
+
+
+
+.search-title {
+    text-align: center;
+    color: rgb(41, 42, 23);
+    text-transform: uppercase;
+    padding: 1px;
+    font-family: 'Raleway', cursive;
+    font-weight: 400;
+    font-size: 2rem;
+    margin: 10px;
+
+}

@@ -1,0 +1,42 @@
+/* Fonts */
+@font-face {
+    font-family: LatoLight;
+    src: url(../../fonts/Lato/Lato-Light.ttf);
+}
+
+@font-face {
+    font-family: LatoRegular;
+    src: url(../../fonts/Lato/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: PTSansItalic;
+    src: url(../../fonts/Pts/PTSans-Italic.ttf);
+}
+
+@font-face {
+    font-family: PTSansRegular;
+    src: url(../../fonts/Pts/PTSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: RobotoRegular;
+    src: url(../../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: RobotoLight;
+    src: url(../../fonts/Roboto/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: RobotoItalic;
+    src: url(../../fonts/Roboto/Roboto-Italic.ttf);
+}
+
+
+
+@font-face {
+    font-family: eczar;
+    src: url(../../fonts/Eczar/Eczar-ExtraBold.ttf);
+}

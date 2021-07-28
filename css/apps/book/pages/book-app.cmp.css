@@ -1,0 +1,113 @@
+
+
+.book-app {
+    background-color: rgb(227, 230, 233);
+    min-height: 80vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+
+
+/* FOOTER */
+
+button {
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(160, 157, 157, 0.192);
+}
+
+.x-btn {
+    width: 50px;
+    margin-right: 20px;
+    font-size: 2rem;
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+    text-align: center;
+
+
+}
+
+.x-btn:hover {
+    background-color: rgba(160, 157, 157, 0.192);
+
+}
+
+
+/* USER-MSG */
+.user.msg {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+
+}
+
+@-webkit-keyframes fadein {
+    from {
+        bottom: 0;
+        opacity: 0;
+    }
+
+    to {
+        bottom: 30px;
+        opacity: 1;
+    }
+}
+
+@keyframes fadein {
+    from {
+        bottom: 0;
+        opacity: 0;
+    }
+
+    to {
+        bottom: 30px;
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeout {
+    from {
+        bottom: 30px;
+        opacity: 1;
+    }
+
+    to {
+        bottom: 0;
+        opacity: 0;
+    }
+}
+
+@keyframes fadeout {
+    from {
+        bottom: 30px;
+        opacity: 1;
+    }
+
+    to {
+        bottom: 0;
+        opacity: 0;
+    }
+}
+
+.success {
+    background-color: rgb(41, 223, 41);
+    text-align: center;
+    font-family: sans-serif;
+    padding: 10px;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    border-radius: 2px;
+
+}
+
+.error {
+    background-color: red;
+}

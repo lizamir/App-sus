@@ -1,0 +1,10 @@
+.note-todos {
+    font-size: 1rem;
+    margin-left: 5px;
+}
+
+.marked {
+    text-decoration: line-through;
+}
+
+.todos-ul {}

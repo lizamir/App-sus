@@ -1,0 +1,25 @@
+                    .container-app {
+                        /* background-image: url("../../img/bgc.jpg"); */
+                        background-attachment: fixed;
+                        background-size: cover;
+                        z-index: -1;
+                        background-color: rgb(255, 255, 255);
+                    }
+
+                    img{
+                        width: 65%;
+                    }
+                    
+                    h1.header-app {
+                        /* text-shadow: 5px -4px 7px rgba(27, 27, 27, 0.64); */
+                        font-size: 80px;
+                        font-family: RobotoItalic;
+                        font-weight: bold;
+                        color: #fbc013;
+                        opacity: 0.9;
+                        text-align: center;
+                    }
+                    
+                    h1.header-app {
+                        font-size: 60px;
+                    }

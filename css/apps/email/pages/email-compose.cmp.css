@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Saira+Semi+Condensed&display=swap');
+
+
+body {
+    background: #dfdfdf
+}
+
+.compose-form {
+    padding: 50px 40px;
+    border: 5px solid gray;
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    color: rgb(34, 33, 33);
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0.4px 0.4px rgba(128, 128, 128, 0.109),
+        0 1px 1px rgba(128, 128, 128, 0.155),
+        0 2.1px 2.1px rgba(128, 128, 128, 0.195),
+        0 4.4px 4.4px rgba(128, 128, 128, 0.241),
+        0 12px 12px rgba(128, 128, 128, 0.35);
+}
+
+
+.input-addressee,
+.input-subject,
+.input-content {
+    background: rgba(255, 255, 255, .5);
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    width: 100%;
+
+}
+
+.compose-btn-container{
+    display: flex;
+    height: 100px;
+    align-items: flex-end;
+}
+
+.send-btn {
+    width: 100px;
+    padding: 20px;
+    margin: 20px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    background: #455fe0;
+    border: none;
+    cursor: pointer;
+}
+.discard-btn {
+    width: 100px;
+    padding: 20px;
+    margin: 20px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    background: #c5c5c5;
+    border: none;
+    cursor: pointer;
+}
+
+.field {
+    border-bottom: 1px solid rgb(206, 205, 205);
+}
+

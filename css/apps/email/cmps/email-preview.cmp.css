@@ -1,0 +1,194 @@
+.email-preview-container {
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(222, 228, 228);
+    text-align: left;
+
+
+}
+
+.email-preview-container>* {
+    display: flex;
+    align-items: center;
+
+}
+
+.email-preview-container:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+.email-pre-container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.email-preview-container .email-sender {
+    min-width: 120px
+}
+
+.email-preview-container .email-subject {
+    min-width: 300px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.email-preview-container .body-introduction {
+    font-size: 13px;
+    font-weight: normal;
+    font-family: RobotoItalic;
+    min-width: 250px;
+    max-width: 300px;
+
+
+}
+
+.email-date {
+    font-family: RobotoItalic;
+    font-size: 12px;
+    max-width: 100px;
+    width: 100px;
+}
+
+.isRead {
+    background-color: rgb(240, 240, 240);
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+    color: rgb(110, 109, 109);
+    font-weight: 0;
+}
+
+.Unread {
+    background-color: rgb(228, 226, 226);
+    font-weight: bold;
+
+}
+
+.star-img {
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+}
+
+
+@media screen and (max-width: 960px) {
+
+    .scroll-container {
+        max-width: 950px;
+    }
+
+    .main-app {
+        max-width: 900px;
+
+    }
+
+
+
+    .email-preview-container .email-sender {
+        min-width: 100px;
+        max-width: 160px;
+        font-size: 14px;
+    }
+
+    .email-preview-container .email-subject {
+        font-size: 14px;
+        min-width: 240px;
+        max-width: 440px;
+    }
+
+
+    .email-preview-container .body-introduction {
+        font-size: 12px;
+        min-width: 160px;
+        max-width: 260px;
+        
+
+
+    }
+
+ 
+
+   
+}
+
+@media screen and (max-width: 750px) {
+
+    .scroll-container{
+        max-width: 700px;
+    }
+
+    .email-preview-container{
+       max-width: 550px;
+    }
+
+    .email-preview-container .email-sender {
+        min-width:  50px;
+        font-size: 12px;
+    }
+
+    .email-preview-container .email-subject {
+        font-size: 11px;
+        min-width: 120px;
+        max-width: 180px;
+    }
+
+
+    .email-preview-container .body-introduction {
+        font-size: 11px;
+        min-width: 160px;
+    }
+
+    .email-preview-container .email-date {
+        font-size: 11px;
+        min-width: 80px;
+
+    }
+
+
+@media screen and (max-width: 500px) {
+    .scroll-container{
+        max-width: 490px;
+    }
+
+    .main-app {
+        max-width:500px;
+
+    }
+    .email-preview-container{
+        max-width: 400px;
+    }
+
+    .email-preview-container .email-sender {
+        min-width: 35px;
+        max-width: 45px;
+        font-size: 10px;
+    }
+
+    .email-preview-container .email-subject {
+        font-size: 10px;
+        min-width: 80px;
+        max-width: 140px;
+    }
+
+
+    .email-preview-container .body-introduction {
+        font-size: 9px;
+        min-width: 110px;
+
+    }
+
+    .email-preview-container .email-date {
+        display: none;
+    }
+
+
+
+}
+}

@@ -1,0 +1,152 @@
+
+.mail-details-container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(231, 231, 230);
+    height: 100vh;
+}
+
+
+.x-btn{
+    /* border:1px solid lightgray; */
+    /* border-radius: 50%; */
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    color:rgb(128, 125, 125);
+    text-decoration: none;
+    /* box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; */
+}
+.email-info{
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border:1px solid lightgray;
+    margin:10px;
+    padding: 10px;
+}
+
+ .email-subject{
+    min-height: 50px;
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+    font-weight: bold;
+}
+
+.email-subtitle-container{
+    min-height: 150px;
+    min-width: 500px;
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.email-sender{
+    min-width: 150px;
+}
+
+.email-adress{
+    min-width: 280px;
+    font-size: 15px;
+    font-family: PTSansItalic;
+    color:rgb(138, 135, 135)
+}
+
+.email-date{
+    min-width: 250px;
+    font-size: 15px;
+    color:rgb(138, 135, 135);
+    font-family: PTSansItalic;
+}
+
+.email-body{
+    min-width: 300px;
+    min-height: 250px;
+    width: 100%;
+    display: flex;
+    align-self: flex-start;
+    padding-top: 20px;
+
+    border-bottom: 1px solid lightgray;
+}
+
+.Integration-btn{
+    display: flex;
+    height:100%;
+    align-items: center;
+
+}
+
+.reply-btn{
+    width: 200px;
+    height: 50px;
+    background-color: #e7e7e7;
+    color: rgb(104, 101, 101);
+    font-weight: 400;
+    border: 1px solid rgb(200, 199, 199);
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px;
+
+}
+
+
+
+@media screen and (max-width: 760px) {
+
+    .email-subtitle-container{
+        min-height: 100px;
+        min-width: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 5px;
+        
+    }
+
+    .email-info{
+        min-height: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border:1px solid lightgray;
+        margin:10px;
+        padding: 10px;
+    }
+   
+    .email-sender{
+        min-width: 120px;
+        padding: 3px;  
+
+    }
+
+    .email-adress{
+        min-width: 230px;
+        font-size: 14px;
+        padding: 3px;  
+
+    }
+
+
+    .email-date{
+        min-width: 150px;
+        font-size: 13px;  
+        padding: 3px;  
+    }
+
+    .reply-btn{
+        font-size: 12px;
+        width: 140px;
+        height: 50px;
+
+    }
+    
+}
